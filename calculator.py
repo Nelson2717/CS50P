@@ -2,8 +2,8 @@
 x = float(input("What's x? "))
 y = float(input("What's y? "))
 
-# Create a rounded result
-z = round(x + y)
+# Calculate the result and round
+z = round(x / y, 2)
 
-# Print the formatted result
-print(f"{z:,}")
+# Print the result
+print(z)
