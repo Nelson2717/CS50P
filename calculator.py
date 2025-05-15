@@ -5,5 +5,5 @@ y = float(input("What's y? "))
 # Create a rounded result
 z = round(x + y)
 
-# Print the result
-print(z)
+# Print the formatted result
+print(f"{z:,}")
