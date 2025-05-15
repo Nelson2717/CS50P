@@ -1,5 +1,5 @@
-x = 11000000
-y = 2998374389
+x = input("What's x? ")
+y = input("What's y? ")
 
 z = x + y
 
